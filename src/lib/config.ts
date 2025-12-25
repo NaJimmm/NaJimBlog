@@ -38,9 +38,9 @@ export const SITE_INFO = {
   // 网站名称
   NAME: 'NaJimBlog',
   SITE_NAME: 'NaJim Blog',
-  SUBNAME: '一个简单的Liquid Glass风格的静态网站系统',
+  SUBNAME: '一个简单的个人博客',
   // 网站描述
-  DESCRIPTION: 'NaJim个人博客，使用Liquid Glass风格的静态网站系统，用于记录个人成长、技术分享、开发心得等网站。',
+  DESCRIPTION: 'NaJim的个人博客，用于记录个人成长、技术分享、开发心得等网站。',
   // 网站 URL (生产环境)
   URL: 'https://najim.jlerp.top',
   AUTHOR: 'NaJim',
