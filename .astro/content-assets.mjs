@@ -1,0 +1,8 @@
+
+import __ASTRO_IMAGE_IMPORT_Z23obRD from "@assets/picture.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fabout%2F-index.md";
+import __ASTRO_IMAGE_IMPORT_ZdbCEz from "@assets/uploads/demo.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2F%E6%96%87%E7%AB%A0%E6%A8%A1%E6%9D%BF.md";
+import __ASTRO_IMAGE_IMPORT_Zq7vIu from "@assets/uploads/eve.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fnotes%2F%E5%8A%A8%E6%80%81%E5%B0%B1%E6%98%AF%E6%97%A5%E8%AE%B0.md";
+import __ASTRO_IMAGE_IMPORT_Z1VeAuF from "@assets/picture.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fpages%2Fabout.md";
+import __ASTRO_IMAGE_IMPORT_Z26PBVU from "@assets/picture.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fpages%2F-index.md";
+export default new Map([["@assets/picture.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fabout%2F-index.md", __ASTRO_IMAGE_IMPORT_Z23obRD], ["@assets/uploads/demo.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2F%E6%96%87%E7%AB%A0%E6%A8%A1%E6%9D%BF.md", __ASTRO_IMAGE_IMPORT_ZdbCEz], ["@assets/uploads/eve.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fnotes%2F%E5%8A%A8%E6%80%81%E5%B0%B1%E6%98%AF%E6%97%A5%E8%AE%B0.md", __ASTRO_IMAGE_IMPORT_Zq7vIu], ["@assets/picture.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fpages%2Fabout.md", __ASTRO_IMAGE_IMPORT_Z1VeAuF], ["@assets/picture.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fpages%2F-index.md", __ASTRO_IMAGE_IMPORT_Z26PBVU]]);
+		

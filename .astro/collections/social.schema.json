@@ -1,0 +1,123 @@
+{
+  "$ref": "#/definitions/social",
+  "definitions": {
+    "social": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "draft": {
+          "type": "boolean",
+          "default": false
+        },
+        "createdAt": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "integer",
+              "format": "unix-time"
+            }
+          ]
+        },
+        "updatedAt": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "integer",
+              "format": "unix-time"
+            }
+          ]
+        },
+        "platforms": {
+          "type": "object",
+          "properties": {
+            "discord": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string"
+            },
+            "facebook": {
+              "type": "string"
+            },
+            "github": {
+              "type": "string"
+            },
+            "instagram": {
+              "type": "string"
+            },
+            "linkedIn": {
+              "type": "string"
+            },
+            "pinterest": {
+              "type": "string"
+            },
+            "tiktok": {
+              "type": "string"
+            },
+            "website": {
+              "type": "string"
+            },
+            "youtube": {
+              "type": "string"
+            },
+            "wechat": {
+              "type": "string"
+            },
+            "xhs": {
+              "type": "string"
+            },
+            "weibo": {
+              "type": "string"
+            },
+            "rss": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        },
+        "displayOrder": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "showInHeader": {
+          "type": "boolean",
+          "default": true
+        },
+        "showInFooter": {
+          "type": "boolean",
+          "default": true
+        },
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "platforms"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

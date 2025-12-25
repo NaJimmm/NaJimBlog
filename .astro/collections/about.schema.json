@@ -1,0 +1,170 @@
+{
+  "$ref": "#/definitions/about",
+  "definitions": {
+    "about": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "draft": {
+          "type": "boolean",
+          "default": false
+        },
+        "createdAt": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "integer",
+              "format": "unix-time"
+            }
+          ]
+        },
+        "updatedAt": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "integer",
+              "format": "unix-time"
+            }
+          ]
+        },
+        "image": {
+          "type": "string"
+        },
+        "imageAlt": {
+          "type": "string",
+          "default": ""
+        },
+        "skills": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "experience": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "company": {
+                "type": "string"
+              },
+              "period": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "title",
+              "company",
+              "period"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "education": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "degree": {
+                "type": "string"
+              },
+              "school": {
+                "type": "string"
+              },
+              "period": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "degree",
+              "school",
+              "period"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "social": {
+          "type": "object",
+          "properties": {
+            "discord": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string"
+            },
+            "facebook": {
+              "type": "string"
+            },
+            "github": {
+              "type": "string"
+            },
+            "instagram": {
+              "type": "string"
+            },
+            "linkedIn": {
+              "type": "string"
+            },
+            "pinterest": {
+              "type": "string"
+            },
+            "tiktok": {
+              "type": "string"
+            },
+            "website": {
+              "type": "string"
+            },
+            "youtube": {
+              "type": "string"
+            },
+            "wechat": {
+              "type": "string"
+            },
+            "xhs": {
+              "type": "string"
+            },
+            "weibo": {
+              "type": "string"
+            },
+            "rss": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        },
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}
