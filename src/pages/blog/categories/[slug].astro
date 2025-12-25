@@ -93,6 +93,7 @@ const entries: BlogEntry[] = categoryPosts.map((post: any) => ({
     hideToc: post.data.hideToc,
   },
 }));
+console.log("当前页面数据：", entries);
 
 const allPosts = await getCollection("blog", ({ data }) => {
   return data.status === "published" && !data.draft;

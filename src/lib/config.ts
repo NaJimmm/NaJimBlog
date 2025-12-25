@@ -42,7 +42,7 @@ export const SITE_INFO = {
   // 网站描述
   DESCRIPTION: 'NaJim个人博客，使用Liquid Glass风格的静态网站系统，用于记录个人成长、技术分享、开发心得等网站。',
   // 网站 URL (生产环境)
-  URL: 'http://localhost:4321',
+  URL: 'https://najim.jlerp.top',
   AUTHOR: 'NaJim',
   // 本地开发 URL
   DEV_URL: 'http://localhost:4321',

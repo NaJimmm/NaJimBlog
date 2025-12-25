@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NaJim的世界</title>
+    <description>一个独立开发者的画地自圆</description>
+    <link>https://github.com/NaJimmm/</link>
+    <atom:link href="https://github.com/NaJimmm/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Dec 2025 00:00:00 GMT</lastBuildDate>
+    <pubDate>Thu, 25 Dec 2025 00:00:00 GMT</pubDate>
+    <language>zh-cn</language>
+    <managingEditor>NaJim</managingEditor>
+    <webMaster>NaJim</webMaster>
+    <generator>Astro</generator>
+    <ttl>60</ttl>
+
+    <item>
+      <title>开源 NaJimBlog 及部署示例</title>
+      <link>https://github.com/NaJimmm/blog/najimcms/</link>
+      <guid isPermaLink="true">https://github.com/NaJimmm/blog/najimcms/</guid>
+      <pubDate>Thu, 25 Dec 2025 00:00:00 GMT</pubDate>
+      <author>NaJim</author>
+      <description>本文是 NaJimBlog 的默认示例，帮助快速了解如何使用本系统。NaJimBlog 是一款轻量级、开源的内容管理系统，专为个人博客、文档站点而设。</description>
+      <enclosure url="https://github.com/NaJimmm/_astro/demo.BUJBdV7w.jpg" type="image/jpeg" />
+      <category>使用说明</category>
+    </item>
+
+    <item>
+      <title>示例文章模板</title>
+      <link>https://github.com/NaJimmm/blog/文章模板/</link>
+      <guid isPermaLink="true">https://github.com/NaJimmm/blog/文章模板/</guid>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 GMT</pubDate>
+      <author>NaJim</author>
+      <description>这是一篇文章模板，展示了常用的 Markdown 格式的常用语法与组件。</description>
+      <enclosure url="https://github.com/NaJimmm/_astro/demo.BUJBdV7w.jpg" type="image/jpeg" />
+      <category>示例分类</category>
+    </item>
+
+    <item>
+      <title>博客</title>
+      <link>https://github.com/NaJimmm/blog/-index/</link>
+      <guid isPermaLink="true">https://github.com/NaJimmm/blog/-index/</guid>
+      <pubDate>Thu, 25 Dec 2025 10:09:41 GMT</pubDate>
+      <author>NaJim</author>
+      <description>记录 NaJim 写的文章</description>
+      
+      
+    </item>
+
+  </channel>
+</rss>

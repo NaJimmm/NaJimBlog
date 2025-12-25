@@ -7,31 +7,11 @@
     {
       "id": "1",
       "name": "纳吉米的日常",
-      "url": "https://najim.com",
+      "url": "https://najim.jlerp.top",
       "description": "一个后端程序员的小领地",
       "avatar": "/favicon/avatar.webp",
       "status": "active",
       "category_code": "tech",
-      "sort_order": 1
-    },
-    {
-      "id": "2",
-      "name": "前端之路",
-      "url": "https://example.com",
-      "description": "JS/TS、React、工程化与性能优化",
-      "avatar": "/favicon/logo-192x192.png",
-      "status": "active",
-      "category_code": "tech",
-      "sort_order": 2
-    },
-    {
-      "id": "3",
-      "name": "岛屿笔记",
-      "url": "https://example.com",
-      "description": "旅行、摄影与日常随笔",
-      "avatar": "/favicon/logo-192x192.png",
-      "status": "active",
-      "category_code": "life",
       "sort_order": 1
     }
   ]
